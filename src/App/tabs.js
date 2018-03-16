@@ -32,10 +32,10 @@ export default [
     label: "N-Language AI",
     path: "/nl-ai",
     component: NLAI
-  },
-  {
-    label: "ATO salary",
-    path: "/ato-salary",
-    component: AtoSalary
   }
+  // {
+  //   label: "ATO salary",
+  //   path: "/ato-salary",
+  //   component: AtoSalary
+  // }
 ];
