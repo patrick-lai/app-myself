@@ -60,7 +60,7 @@
     "prop-types": "~15.6.0",
     "raven-js": "^3.23.2",
     "react": "~16.2.0",
-    "react-app-engine": "github:patrick-lai/react-app-engine#0.0.3",
+    "react-app-engine": "github:patrick-lai/react-app-engine#0.0.4",
     "react-dom": "~16.2.0",
     "react-fastclick": "~3.0.2",
     "react-motion": "~0.5.1",

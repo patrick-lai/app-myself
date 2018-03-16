@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from './styles';
-import { ScaleLoader } from 'react-spinners';
+import React from "react";
+import styles from "./styles";
+import { ScaleLoader } from "react-spinners";
 
 export default class LazyImage extends React.Component {
   state = {};
@@ -21,7 +21,11 @@ export default class LazyImage extends React.Component {
     const { imageUrl } = this.state;
     return (
       <div className={styles.container}>
-        {imageUrl ? <img src={imageUrl} /> : <ScaleLoader color="white"/>}
+        {imageUrl ? (
+          <img src={imageUrl} />
+        ) : (
+          <ScaleLoader color="rgb(136, 136, 136)" />
+        )}
       </div>
     );
   };
