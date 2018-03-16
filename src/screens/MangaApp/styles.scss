@@ -5,13 +5,14 @@
 
   .images {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex: 1;
+    flex-wrap: wrap;
 
     > div {
       width: 25%;
+      min-width: 300px;
       margin: 1em;
-      border: 1px solid #555;
     }
   }
 }
