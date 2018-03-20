@@ -5,6 +5,7 @@
   .switch-wrapper {
     position: relative;
     height: 100%;
+    overflow: hidden;
     > div {
       position: absolute;
       width: 100%;
@@ -23,5 +24,6 @@
 
   html {
     background-color: $color-page;
+    line-height: 1.5em;
   }
 }

@@ -7,9 +7,8 @@ export default () => {
         <h1>About Me</h1>
         <hr />
         <p>
-          My name is Patrick Lai, I am a full stack javascript technical lead,
-          currently working with React, React-native, Node/Express, Postgresql.
-          <br />
+          I am a full stack javascript technical lead, currently working with
+          React, React-native, Node/Express, Postgresql.
           <br />
           Most passionate in architecting systems that are reliable,
           maintainable and legible.
@@ -18,7 +17,7 @@ export default () => {
       <section>
         <h1>Employment History</h1>
         <hr />
-        <h5>Technical lead - Next practice health</h5>
+        <h5>Role: Technical lead - Next practice health</h5>
         <br />
         <h5 className="thin">Roles and responsibilities</h5>
         <ul>
