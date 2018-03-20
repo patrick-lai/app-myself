@@ -15,13 +15,23 @@ import { store } from "react-app-engine/src/store";
 import { pushRight } from "react-app-engine/src/transitions";
 import ErrorBoundary from "react-app-engine/src/components/ErrorBoundary";
 
+import ReactGA from "react-ga";
+
+if (process.env.UA_TRACKING_ID) {
+  ReactGA.initialize(process.env.UA_TRACKING_ID);
+  // Listen to Routing
+  history.listen((location, action) => {
+    ReactGA.set({ page: location.pathname });
+    ReactGA.pageview(location.pathname);
+  });
+}
+
 // Authentication routes can be done like this:
-// <Route path="/logout" component={LogoutScreen} />
 // <Route
 //   path="/login"
 //   render={() => {
-//     const isLoggedIn = _.get(store.getState(), 'session.type') === 'app';
-//     return isLoggedIn ? <Redirect to="/welcome" /> : <LoginScreen login={login} />;
+//     const isLoggedIn = _.get(store.getState(), 'session');
+//     return isLoggedIn ? <Redirect to="/" /> : <Login login={login} />;
 //   }}
 // />
 
