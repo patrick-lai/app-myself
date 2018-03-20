@@ -18,6 +18,7 @@ import ErrorBoundary from "react-app-engine/src/components/ErrorBoundary";
 import ReactGA from "react-ga";
 
 if (process.env.UA_TRACKING_ID) {
+  console.log("GA Tracking enabled");
   ReactGA.initialize(process.env.UA_TRACKING_ID);
   // Listen to Routing
   history.listen((location, action) => {
