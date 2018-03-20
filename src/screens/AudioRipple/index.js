@@ -15,7 +15,7 @@ export default () => {
         >
           WebAudio Api
         </a>{" "}
-        to analyze audio in real time.
+        to analyze audio in <i>REAL TIME</i>.
       </p>
       <div style={{ width: "100%", flex: 1, margin: "auto" }}>
         <FakeBrowser>

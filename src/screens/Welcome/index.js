@@ -10,17 +10,16 @@ export default () => {
           I am a full stack javascript technical lead, currently working with
           React, React-native, Node/Express, Postgresql.
           <br />
-          Most passionate in architecting systems that are reliable,
-          maintainable and legible.
+          Most passionate about architecting systems that are rock solid
+          reliable and maintainable.
         </p>
       </section>
       <section>
-        <h1>Employment History</h1>
+        <h1>Current position</h1>
         <hr />
-        <h5>Role: Technical lead - Next practice health</h5>
-        <br />
-        <h5 className="thin">Roles and responsibilities</h5>
-        <ul>
+        <h5>Technical lead - Next practice health</h5>
+        <h5 className="thin">Responsibilities</h5>
+        <ul style={{ marginTop: 0 }}>
           <li>
             Architect and develop an agnostic backend system, which can readily
             integrate with new partners (node, express, postgres, heroku).
