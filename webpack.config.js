@@ -38,11 +38,11 @@ module.exports = {
     // Serves html
     new HtmlWebpackPlugin({
       template: "index.html"
-    }),
+    })
     // Real env
-    new webpack.EnvironmentPlugin(["UA_TRACKING_ID", "DEBUG"]),
+    // new webpack.EnvironmentPlugin(["UA_TRACKING_ID", "DEBUG"]),
     // .env
-    new Dotenv()
+    // new Dotenv()
   ],
   module: { rules },
   node: { fs: "empty" }, // TODO - Remove once CSS loader sorts this out
