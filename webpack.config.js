@@ -39,6 +39,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "index.html"
     }),
+    // Real env
+    new webpack.EnvironmentPlugin(["UA_TRACKING_ID", "DEBUG"]),
     // .env
     new Dotenv()
   ],

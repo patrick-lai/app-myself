@@ -11,7 +11,7 @@ export default () => {
         <p>Node iPhone X farmer, this is how i got mine ;)</p>
         <div className={styles.images}>
           {images.map((image, i) => (
-            <div>
+            <div key={i}>
               <LazyImage uri={image} key={i} />
             </div>
           ))}
